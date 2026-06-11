@@ -1,0 +1,202 @@
+2026-06-10 22:57:06,419 | INFO | === INICIO MONITOREO ===
+2026-06-10 22:57:06,436 | INFO | OK: 192.168.40.10
+2026-06-10 22:57:06,552 | INFO | OK: google.com
+2026-06-10 22:57:06,705 | INFO | OK: cloudflare.com
+2026-06-10 23:02:06,719 | INFO | OK: 192.168.40.10
+2026-06-10 23:02:06,831 | INFO | OK: google.com
+2026-06-10 23:02:06,992 | INFO | OK: cloudflare.com
+2026-06-10 23:02:18,393 | INFO | Monitoreo detenido manualmente
+2026-06-10 23:02:20,301 | INFO | === INICIO MONITOREO ===
+2026-06-10 23:02:20,317 | INFO | OK: 192.168.40.10
+2026-06-10 23:02:20,355 | INFO | OK: google.com
+2026-06-10 23:02:20,427 | INFO | OK: cloudflare.com
+2026-06-10 23:07:20,439 | INFO | OK: 192.168.40.10
+2026-06-10 23:07:20,550 | INFO | OK: google.com
+2026-06-10 23:07:20,705 | INFO | OK: cloudflare.com
+2026-06-10 23:07:26,647 | INFO | Monitoreo detenido manualmente
+2026-06-10 23:07:30,676 | INFO | === INICIO MONITOREO PRO ===
+2026-06-10 23:07:30,691 | INFO | OK: 192.168.40.10 | 0ms
+2026-06-10 23:07:30,728 | INFO | OK: google.com | 0ms
+2026-06-10 23:07:30,801 | INFO | OK: cloudflare.com | 0ms
+2026-06-10 23:12:30,848 | INFO | OK: 192.168.40.10 | 0ms
+2026-06-10 23:12:30,963 | INFO | OK: google.com | 0ms
+2026-06-10 23:12:31,085 | INFO | OK: cloudflare.com | 0ms
+2026-06-10 23:17:31,111 | INFO | OK: 192.168.40.10 | 0ms
+2026-06-10 23:17:31,219 | INFO | OK: google.com | 0ms
+2026-06-10 23:17:31,343 | INFO | OK: cloudflare.com | 0ms
+2026-06-10 23:22:31,368 | INFO | OK: 192.168.40.10 | 0ms
+2026-06-10 23:22:31,481 | INFO | OK: google.com | 0ms
+2026-06-10 23:22:31,592 | INFO | OK: cloudflare.com | 0ms
+2026-06-10 23:27:31,619 | INFO | OK: 192.168.40.10 | 0ms
+2026-06-10 23:27:31,676 | INFO | OK: google.com | 0ms
+2026-06-10 23:27:31,801 | INFO | OK: cloudflare.com | 0ms
+2026-06-10 23:32:31,837 | INFO | OK: 192.168.40.10 | 0ms
+2026-06-10 23:32:31,940 | INFO | OK: google.com | 0ms
+2026-06-10 23:32:32,063 | INFO | OK: cloudflare.com | 0ms
+2026-06-10 23:35:52,965 | INFO | Monitoreo detenido
+2026-06-10 23:36:10,697 | INFO | === INICIO MONITOREO PRO ===
+2026-06-10 23:36:10,712 | INFO | OK: 192.168.40.10 | 0ms
+2026-06-10 23:36:10,749 | INFO | OK: google.com | 0ms
+2026-06-10 23:36:10,784 | INFO | OK: cloudflare.com | 0ms
+2026-06-10 23:36:15,605 | INFO | Monitoreo detenido
+2026-06-10 23:37:04,970 | INFO | === INICIO MONITOREO PRO ===
+2026-06-10 23:37:04,984 | INFO | OK: 192.168.40.10 | 0ms
+2026-06-10 23:37:05,023 | INFO | OK: google.com | 0ms
+2026-06-10 23:37:05,058 | INFO | OK: cloudflare.com | 0ms
+2026-06-10 23:37:52,300 | INFO | Monitoreo detenido
+2026-06-10 23:38:02,343 | INFO | === INICIO MONITOREO PRO ===
+2026-06-10 23:38:05,989 | ERROR | 
+HOST: 192.0.2.123
+STATUS: FALLO DNS
+TIME: 2026-06-10 23:38:05.989121
+DETAIL:
+Servidor:  dns.google
+Address:  8.8.8.8
+
+*** dns.google no encuentra 192.0.2.123: Non-existent domain
+--------------------
+
+2026-06-10 23:38:06,752 | INFO | -- BEGIN Twilio API Request --
+2026-06-10 23:38:06,752 | INFO | POST Request: https://api.twilio.com/2010-04-01/Accounts/AC5093f4094e2e30ebe9d20ea3c25d0f13/Messages.json
+2026-06-10 23:38:06,752 | INFO | Headers:
+2026-06-10 23:38:06,752 | INFO | Content-Type : application/x-www-form-urlencoded
+2026-06-10 23:38:06,752 | INFO | Accept : application/json
+2026-06-10 23:38:06,752 | INFO | User-Agent : twilio-python/9.10.9 (Windows AMD64) Python/3.13.13
+2026-06-10 23:38:06,752 | INFO | X-Twilio-Client : python-9.10.9
+2026-06-10 23:38:06,752 | INFO | Accept-Charset : utf-8
+2026-06-10 23:38:06,752 | INFO | -- END Twilio API Request --
+2026-06-10 23:38:07,459 | INFO | Response Status Code: 201
+2026-06-10 23:38:07,459 | INFO | Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '994', 'Connection': 'keep-alive', 'Date': 'Thu, 11 Jun 2026 04:38:02 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ2316da041381574dcd9078d41b97c3d2', 'Twilio-Request-Duration': '0.148', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 2867693497a66aa1d80d702414984d48.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BOG50-P2', 'X-Amz-Cf-Id': 'HehXy0WoYsRdunKEfolbFZLyU5kX8zXds-D82ZD-xnXt2mlFpZmVlA==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2026-06-10 23:38:07,460 | INFO | WhatsApp enviado: 
+\U0001f6a8 ALERTA DE RED \U0001f6a8
+
+Host: 192.0.2.123
+Problema: FALLO DNS
+
+Diagnóstico:
+Servidor
+2026-06-10 23:38:07,519 | INFO | OK: google.com | 0ms
+2026-06-10 23:38:07,649 | INFO | OK: cloudflare.com | 0ms
+2026-06-10 23:39:16,190 | INFO | === INICIO MONITOREO PRO ===
+2026-06-10 23:39:19,991 | ERROR | 
+HOST: 192.0.2.123
+STATUS: FALLO DNS
+TIME: 2026-06-10 23:39:19.991162
+DETAIL:
+Servidor:  dns.google
+Address:  8.8.8.8
+
+*** dns.google no encuentra 192.0.2.123: Non-existent domain
+--------------------
+
+2026-06-10 23:39:20,082 | INFO | -- BEGIN Twilio API Request --
+2026-06-10 23:39:20,082 | INFO | POST Request: https://api.twilio.com/2010-04-01/Accounts/AC5093f4094e2e30ebe9d20ea3c25d0f13/Messages.json
+2026-06-10 23:39:20,082 | INFO | Headers:
+2026-06-10 23:39:20,082 | INFO | Content-Type : application/x-www-form-urlencoded
+2026-06-10 23:39:20,082 | INFO | Accept : application/json
+2026-06-10 23:39:20,082 | INFO | User-Agent : twilio-python/9.10.9 (Windows AMD64) Python/3.13.13
+2026-06-10 23:39:20,082 | INFO | X-Twilio-Client : python-9.10.9
+2026-06-10 23:39:20,082 | INFO | Accept-Charset : utf-8
+2026-06-10 23:39:20,082 | INFO | -- END Twilio API Request --
+2026-06-10 23:39:20,875 | INFO | Response Status Code: 201
+2026-06-10 23:39:20,875 | INFO | Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '994', 'Connection': 'keep-alive', 'Date': 'Thu, 11 Jun 2026 04:39:16 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ2e0b525957452d2da03d1276e6bd2bda', 'Twilio-Request-Duration': '0.152', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 6337e0a9d34b5c132ab36fa1f171bcde.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BOG50-P2', 'X-Amz-Cf-Id': 'fzFmefUzl2EZUIq3eapj1icnnhch4jRRclgr772GwJv1Q3Gdk1Dsjg==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2026-06-10 23:39:20,875 | INFO | WhatsApp enviado: 
+\U0001f6a8 ALERTA DE RED \U0001f6a8
+
+Host: 192.0.2.123
+Problema: FALLO DNS
+
+Diagnóstico:
+Servidor
+2026-06-10 23:39:20,913 | INFO | OK: google.com | 0ms
+2026-06-10 23:39:20,948 | INFO | OK: cloudflare.com | 0ms
+2026-06-10 23:44:24,985 | ERROR | 
+HOST: 192.0.2.123
+STATUS: FALLO DNS
+TIME: 2026-06-10 23:44:24.984984
+DETAIL:
+Servidor:  dns.google
+Address:  8.8.8.8
+
+*** dns.google no encuentra 192.0.2.123: Non-existent domain
+--------------------
+
+2026-06-10 23:44:24,985 | INFO | -- BEGIN Twilio API Request --
+2026-06-10 23:44:24,985 | INFO | POST Request: https://api.twilio.com/2010-04-01/Accounts/AC5093f4094e2e30ebe9d20ea3c25d0f13/Messages.json
+2026-06-10 23:44:24,985 | INFO | Headers:
+2026-06-10 23:44:24,985 | INFO | Content-Type : application/x-www-form-urlencoded
+2026-06-10 23:44:24,985 | INFO | Accept : application/json
+2026-06-10 23:44:24,985 | INFO | User-Agent : twilio-python/9.10.9 (Windows AMD64) Python/3.13.13
+2026-06-10 23:44:24,985 | INFO | X-Twilio-Client : python-9.10.9
+2026-06-10 23:44:24,985 | INFO | Accept-Charset : utf-8
+2026-06-10 23:44:24,985 | INFO | -- END Twilio API Request --
+2026-06-10 23:44:25,635 | INFO | Response Status Code: 201
+2026-06-10 23:44:25,635 | INFO | Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '994', 'Connection': 'keep-alive', 'Date': 'Thu, 11 Jun 2026 04:44:20 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ83a17e1b9a59d48f4e005f7d401a7adb', 'Twilio-Request-Duration': '0.148', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 46bec02ed298be04bfc16ea3a88d9452.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BOG50-P2', 'X-Amz-Cf-Id': 'GMaat7wPYLju5Dv2CORlbkbhQvcEzS8ZLmXley7pcApukgBMCZFNZg==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2026-06-10 23:44:25,635 | INFO | WhatsApp enviado: 
+\U0001f6a8 ALERTA DE RED \U0001f6a8
+
+Host: 192.0.2.123
+Problema: FALLO DNS
+
+Diagnóstico:
+Servidor
+2026-06-10 23:44:25,756 | INFO | OK: google.com | 0ms
+2026-06-10 23:44:25,888 | INFO | OK: cloudflare.com | 0ms
+2026-06-10 23:46:09,337 | INFO | Monitoreo detenido
+2026-06-10 23:46:22,378 | INFO | === INICIO MONITOREO PRO ===
+2026-06-10 23:46:26,372 | ERROR | 
+HOST: 192.0.2.123
+STATUS: SERVIDOR O RED NO RESPONDE
+TIME: 2026-06-10 23:46:26.372641
+DETAIL:
+No aplica nslookup (es IP)
+--------------------
+
+2026-06-10 23:46:26,475 | INFO | -- BEGIN Twilio API Request --
+2026-06-10 23:46:26,475 | INFO | POST Request: https://api.twilio.com/2010-04-01/Accounts/AC5093f4094e2e30ebe9d20ea3c25d0f13/Messages.json
+2026-06-10 23:46:26,475 | INFO | Headers:
+2026-06-10 23:46:26,475 | INFO | Content-Type : application/x-www-form-urlencoded
+2026-06-10 23:46:26,475 | INFO | Accept : application/json
+2026-06-10 23:46:26,475 | INFO | User-Agent : twilio-python/9.10.9 (Windows AMD64) Python/3.13.13
+2026-06-10 23:46:26,475 | INFO | X-Twilio-Client : python-9.10.9
+2026-06-10 23:46:26,475 | INFO | Accept-Charset : utf-8
+2026-06-10 23:46:26,475 | INFO | -- END Twilio API Request --
+2026-06-10 23:46:27,105 | INFO | Response Status Code: 201
+2026-06-10 23:46:27,106 | INFO | Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '933', 'Connection': 'keep-alive', 'Date': 'Thu, 11 Jun 2026 04:46:22 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ3cb3f0e5484cea686848601be7cca269', 'Twilio-Request-Duration': '0.137', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 2867693497a66aa1d80d702414984d48.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BOG50-P2', 'X-Amz-Cf-Id': 'GC4su-283Pr-if2BXITO7vzOtBSL0CEQ-ORmsneM8zT4l6n6dJSEUg==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2026-06-10 23:46:27,106 | INFO | WhatsApp enviado: 
+\U0001f6a8 ALERTA DE RED \U0001f6a8
+
+Host: 192.0.2.123
+Problema: SERVIDOR O RED NO RESPONDE
+
+Diag
+2026-06-10 23:46:27,143 | INFO | OK: google.com | 0ms
+2026-06-10 23:46:27,178 | INFO | OK: cloudflare.com | 0ms
+2026-06-10 23:51:30,879 | ERROR | 
+HOST: 192.0.2.123
+STATUS: SERVIDOR O RED NO RESPONDE
+TIME: 2026-06-10 23:51:30.879761
+DETAIL:
+No aplica nslookup (es IP)
+--------------------
+
+2026-06-10 23:51:30,880 | INFO | -- BEGIN Twilio API Request --
+2026-06-10 23:51:30,880 | INFO | POST Request: https://api.twilio.com/2010-04-01/Accounts/AC5093f4094e2e30ebe9d20ea3c25d0f13/Messages.json
+2026-06-10 23:51:30,880 | INFO | Headers:
+2026-06-10 23:51:30,880 | INFO | Content-Type : application/x-www-form-urlencoded
+2026-06-10 23:51:30,880 | INFO | Accept : application/json
+2026-06-10 23:51:30,880 | INFO | User-Agent : twilio-python/9.10.9 (Windows AMD64) Python/3.13.13
+2026-06-10 23:51:30,880 | INFO | X-Twilio-Client : python-9.10.9
+2026-06-10 23:51:30,880 | INFO | Accept-Charset : utf-8
+2026-06-10 23:51:30,880 | INFO | -- END Twilio API Request --
+2026-06-10 23:51:31,494 | INFO | Response Status Code: 201
+2026-06-10 23:51:31,494 | INFO | Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '933', 'Connection': 'keep-alive', 'Date': 'Thu, 11 Jun 2026 04:51:26 GMT', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ7a904a5a41a3eb625d2af85bb2ae11ed', 'Twilio-Request-Duration': '0.142', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 8e51096665629c353988341150c1029c.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BOG50-P2', 'X-Amz-Cf-Id': '0pr8dt6fDYebLT-rM1NUoUJ_6a1-UqTW8ZzSDX2AwL_LakDEh5jKfw==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2026-06-10 23:51:31,494 | INFO | WhatsApp enviado: 
+\U0001f6a8 ALERTA DE RED \U0001f6a8
+
+Host: 192.0.2.123
+Problema: SERVIDOR O RED NO RESPONDE
+
+Diag
+2026-06-10 23:51:31,608 | INFO | OK: google.com | 0ms
+2026-06-10 23:51:31,740 | INFO | OK: cloudflare.com | 0ms
